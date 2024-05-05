@@ -6,11 +6,14 @@ function Oyuncu({ player }) {
 
     return (
         <div className='oyuncu'>
-            <div>
+            <div className='player'>
                 <img src={image} width={350} height={500} />
-                <h4>{title}</h4>
-                <h5>{description}</h5>
-                <h6>{link}</h6>
+                <div className='deneme'>
+                    <h4 className='player-text' >{title}</h4>
+                    <h4 className='player-decs' >{description}</h4>
+                    <a className='player-link' href={link} >İnstagram</a>
+                </div>
+
             </div>
 
 

@@ -5,20 +5,23 @@ import './App.css'
 import Header from './Header.jsx'
 import { players } from './data.jsx'
 import Oyuncu from './Oyuncu.jsx'
+import './css/Player.css'
 
 
 function App() {
 
   return (
-    <div>
+    <div className='fullbody' >
       <Header />
-      {
-        players?.map((player) => (
-          <Oyuncu key={player.id} player={player} />
+      <div className='player-main'>
+        {
+          players?.map((player) => (
+            <Oyuncu key={player.id} player={player} />
 
 
-        ))
-      }
+          ))
+        }
+      </div>
 
     </div >
 
