@@ -7,7 +7,7 @@ function Header() {
         <div className='header' >
 
             <img src={cddy} style={{ width: '100px', paddingLeft: '40px' }} />
-            <div className='title'>CedidiyeFifa</div>
+            <div className='title'>Cedidiyespor Fifa</div>
             <a className='instatitle' href='https://www.instagram.com/cddyfifa/' >CddyFifa</a>
         </div>
     )
